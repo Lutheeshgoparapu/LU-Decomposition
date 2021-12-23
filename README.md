@@ -51,7 +51,7 @@ Thus the program to find the LU Decomposition of a matrix is written and verifie
 
 
 
-# LU Decomposition without zero on the diagonal
+# Use LU Decomposition to solve a matrix.
 
 
 ## AIM:
