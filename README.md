@@ -7,7 +7,7 @@ To write a program to find the LU Decomposition of a matrix.
 1. Hardware – PCs
 2. Anaconda – Python 3.7 Installation / Moodle-Code Runner
 
-## Algorithm
+## ALGORITHM:
 ### Step 1:
 Import numpy library using import statement.
 
@@ -27,41 +27,33 @@ Find solution of the matrix by using lu_solve() by passing lu, pivot values as f
 Print the solution.
 
 ## Program:
-(i) To find the L and U matrix
 ```
-/*
-Program to find the L and U matrix.
-Developed by: 
-RegisterNumber: 
-*/
-```
-(ii) To find the LU Decomposition of a matrix
-```
-/*
-Program to find the LU Decomposition of a matrix.
-Developed by: 
-RegisterNumber: 
-*/
+'''Program to find L and U matrix using LU decomposition.
+Developed by:A.Tharun
+RegisterNumber:21003406 
+'''
 
+# To print L and U matrix
 import numpy as np
 from scipy.linalg import lu
-A = np.array(eval(input()))
-P, L, U = lu(A)
+A=np.array(eval(input()))
+P,L,U=lu(A)
 print(L)
 print(U)
+
+
 ```
 
 ## Output:
-![OUTPUT](LU_DECOMPOSITION_PHOTO.png)
+![lu decomposition](out.png)
+
 
 ## Result:
 Thus the program to find the LU Decomposition of a matrix is written and verified using python programming.
 
 
 
-
-# Use LU Decomposition to solve a matrix.
-
+# LU Decomposition 
 
 ## AIM:
 To write a program to find the LU Decomposition of a matrix.
@@ -70,7 +62,7 @@ To write a program to find the LU Decomposition of a matrix.
 1. Hardware – PCs
 2. Anaconda – Python 3.7 Installation / Moodle-Code Runner
 
-## Algorithm
+## ALGORITHM:
 ### Step 1:
 Import numpy library using import statement.
 
@@ -87,16 +79,16 @@ Find lu and pivot value of first matrix using lu_factor().
 Find solution of the matrix by using lu_solve() by passing lu, pivot values as first argument and second matrix as second argument.
 
 ### Step 6:
-Print the solution. 
+Print the solution.
 
 ## Program:
 ```
-/*
-Program to find the LU Decomposition of a matrix.
-Developed by: 
-RegisterNumber: 
-*/
+'''Program to solve a matrix using LU decomposition.
+Developed by:A.Tharun 
+RegisterNumber:21003406 
+'''
 
+# To print X matrix (solution to the equations)
 import numpy as np
 import scipy
 from scipy.linalg import lu_factor,lu_solve
@@ -105,10 +97,16 @@ B=([4, 5, 7])
 lu,piv=lu_factor(A)
 x=lu_solve((lu,piv),B)
 print(x)
+
 ```
 
 ## Output:
-![OUTPUT](lu_2.png)
+![lu decomposition](outpur.png)
+
 
 ## Result:
 Thus the program to find the LU Decomposition of a matrix is written and verified using python programming.
+
+
+
+
