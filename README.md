@@ -29,8 +29,8 @@ Print the solution.
 ## Program:
 ```
 '''Program to find L and U matrix using LU decomposition.
-Developed by:A.Tharun
-RegisterNumber:21003406 
+Developed by:g.lutheesh
+RegisterNumber:21005043 
 '''
 
 # To print L and U matrix
@@ -84,8 +84,8 @@ Print the solution.
 ## Program:
 ```
 '''Program to solve a matrix using LU decomposition.
-Developed by:A.Tharun 
-RegisterNumber:21003406 
+Developed by:G.lutheesh 
+RegisterNumber:21005043 
 '''
 
 # To print X matrix (solution to the equations)
